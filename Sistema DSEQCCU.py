@@ -126,7 +126,7 @@ def principal():
 
   saldo = 0
   limite = 500
-  extrato_str = "" # Renamed the variable here
+  extrato_str = ""
   numero_saques = 0
   usuarios = []
   contas = []
@@ -141,18 +141,17 @@ def principal():
 
       valor = float(input("Informe o valor do depósito: "))
 
-      saldo, extrato_str = deposito(saldo, valor, extrato_str) # Use the new variable name
+      saldo, extrato_str = deposito(saldo, valor, extrato_str)
 
     elif opcao == "s":
 
       valor = float(input("Informe o valor do saque: "))
 
-      saldo, extrato_str, numero_saques = saque(saldo = saldo, valor = valor, extrato = extrato_str, limite = limite, # Use the new variable name
-                             numero_saques = numero_saques, limite_saques = LIMITE_SAQUES)
+      saldo, extrato_str, numero_saques = saque(saldo = saldo, valor = valor, extrato = extrato_str, limite = limite,           numero_saques = numero_saques, limite_saques = LIMITE_SAQUES)
 
     elif opcao == "e":
 
-      extrato(saldo, extrato = extrato_str) # Use the new variable name
+      extrato(saldo, extrato = extrato_str)
 
     elif opcao == "nu":
 
