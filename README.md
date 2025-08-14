@@ -6,7 +6,7 @@ Modo de Uso:
 - Para as operações de depósito e saque, informe o valor desejado.
 - Este sistema possui limite de saques diário (3) e por saque a realizar (R$ 500,00).
 
-# Sistema Bancário com Funções Depositar, Sacar, Extrato, Sair, Cadastro de Usuário e Conta (Sistema DSEQCCU)
+# Sistema Bancário com Funções Depositar, Sacar, Extrato, Sair, Cadastro de Usuário e Conta (Sistema DSEQCCU e POO)
 
 Modo de Uso:
 
